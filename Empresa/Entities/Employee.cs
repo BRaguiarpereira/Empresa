@@ -23,6 +23,7 @@ namespace Empresa.Entities
             ValuePerHours = valuePerHours;
         }
 
+        // sobreposicao do metodo 
         public virtual double Payment()
         {
             return Hours * ValuePerHours;

@@ -19,7 +19,7 @@ namespace Empresa.Entities
 
             AdditionalCharge = additionalCharge;
         }
-
+        // sobreposicao do metodo 
         public override double Payment()
         {
             return base.Payment() + 1.1 * AdditionalCharge;
